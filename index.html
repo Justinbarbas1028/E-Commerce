@@ -4,8 +4,308 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 <body>
-    <h1>HELLO WORLD!</h1>
+    <div class="wrapper">
+        <nav class="main-navigation">
+             <div class="navigation">
+                <div class="logo">
+                    <a href="#"><img src="./assets/images/logo.png" alt="logo" class="logo-img"></a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./Product.html">Products</a></li>
+                    <li><a href="./LoginPage.html">Account</a></li>
+                    <li><a href="#"><i class="fas fa-search"></i> Search</a></li>
+                    <li><a href="#"><i class="fas fa-heart"></i> Favourite (05)</a></li>
+                    <li><a href="#"><i class="fas fa-shopping-bag"></i> Cart (01) $65.0</a></li>
+                </ul> 
+            </div>
+            <div class="hamburger" id="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>   
+        </nav>
+        <header class="header">
+            <div class="header-title">
+                <h1>Welcome to our store!</h1>
+                <button type="button">SHOP NOW</button>
+            </div>
+            <div class="banner-image">
+                <img src="./assets/images/laptopheader.png" alt="laptop">
+            </div>
+        </header>
+    
+        <div class="benefits">
+            <div class="benefits-item">
+                <i class="fas fa-rocket"></i>
+                <div class="benefits-info">
+                    <h2>High Performance</h2>
+                    <p>Experience unmatched speed and performance.</p>
+                </div>
+            </div>
+            <div class="benefits-item">
+                <i class="fas fa-tools"></i>
+                <div class="benefits-info">
+                    <h2>Customizable</h2>
+                    <p>Tailor your machine to fit your needs.</p>
+                </div>
+            </div>
+            <div class="benefits-item">
+                <i class="fas fa-shipping-fast"></i>
+                <div class="benefits-info">
+                    <h2>Fast Delivery</h2>
+                    <p>Get your laptop quickly with our expedited shipping options.</p>
+                </div>
+            </div>
+            <div class="benefits-item">
+                <i class="fas fa-award"></i>
+                <div class="benefits-info">
+                    <h2>Quality Assured</h2>
+                    <p>Our laptops are tested for quality and durability.</p>
+                </div>
+            </div>
+        </div>
+        <section class="category">
+            <h3>CATEGORIES</h3>
+            <div class="category-item-wrapper">
+                <article class="category-item hp">
+                    <figure>
+                        <img src="./assets/images/HP-banner.png" alt="HP laptop">
+                        <figcaption>HP: The Power of Performance ( 12 items )</figcaption>
+                    </figure>
+                </article>
+                <article class="category-item asus">
+                    <figure>
+                        <img src="./assets/images/ASUS-Banner.png" alt="ASUS laptop">
+                        <figcaption>ASUS: Unleash Your Creativity ( 8 items )</figcaption>
+                    </figure>
+                </article>
+                <article class="category-item acer">
+                    <figure>
+                        <img src="./assets/images/ACER-banner.png" alt="ACER laptop">
+                        <figcaption>ACER: The Ultimate Gaming Experience ( 10 items )</figcaption>
+                    </figure>
+                </article>
+                <article class="category-item lenovo">
+                    <figure>
+                        <img src="./assets/images/LENOVO-banner.png" alt="LENOVO laptop">
+                        <figcaption>LENOVO: Work Smarter, Not Harder ( 15 items )</figcaption>
+                    </figure>
+                </article>
+            </div>
+        </section>       
+        <p class="cta">Shop Now and Save Big on Your Favorite Brands</p>
+        <section class="new-arrivals">
+            <h3>NEW ARRIVALS</h3>
+            <div class="products">
+                <!-- Product 1 -->
+                <div class="product">
+                    <img src="path-to-image1" alt="Dell Inspiron 15 3000 Laptop">
+                    <p class="product-title">Dell Inspiron 15 3000 Laptop, 15.6-inch HD Display, Intel Core i3 Processor, 8GB RAM, 256GB SSD, Windows 10 Home</p>
+                    
+                    <div class="product-rating">
+                        ★★★★☆
+                        <span>100 reviews</span>
+                    </div>
+                    <p class="product-price"><s>$499.99</s> $399.99 Save $100</p>
+                    <div class="product-btn">
+                        <button type="button">Buy Now</button>
+                        <button type="button"><i class="fas fa-cart-plus"></i></button>
+                        <button type="button"><i class="fas fa-heart"></i></button>
+                        <button type="button"><i class="fas fa-exchange-alt"></i></button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="path-to-image1" alt="Dell Inspiron 15 3000 Laptop">
+                    <p class="product-title">Dell Inspiron 15 3000 Laptop, 15.6-inch HD Display, Intel Core i3 Processor, 8GB RAM, 256GB SSD, Windows 10 Home</p>
+                    
+                    <div class="product-rating">
+                        ★★★★☆
+                        <span>100 reviews</span>
+                    </div>
+                    <p class="product-price"><s>$499.99</s> $399.99 Save $100</p>
+                    <div class="product-btn">
+                        <button type="button">Buy Now</button>
+                        <button type="button"><i class="fas fa-cart-plus"></i></button>
+                        <button type="button"><i class="fas fa-heart"></i></button>
+                        <button type="button"><i class="fas fa-exchange-alt"></i></button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="path-to-image1" alt="Dell Inspiron 15 3000 Laptop">
+                    <p class="product-title">Dell Inspiron 15 3000 Laptop, 15.6-inch HD Display, Intel Core i3 Processor, 8GB RAM, 256GB SSD, Windows 10 Home</p>
+                    
+                    <div class="product-rating">
+                        ★★★★☆
+                        <span>100 reviews</span>
+                    </div>
+                    <p class="product-price"><s>$499.99</s> $399.99 Save $100</p>
+                    <div class="product-btn">
+                        <button type="button">Buy Now</button>
+                        <button type="button"><i class="fas fa-cart-plus"></i></button>
+                        <button type="button"><i class="fas fa-heart"></i></button>
+                        <button type="button"><i class="fas fa-exchange-alt"></i></button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="path-to-image1" alt="Dell Inspiron 15 3000 Laptop">
+                    <p class="product-title">Dell Inspiron 15 3000 Laptop, 15.6-inch HD Display, Intel Core i3 Processor, 8GB RAM, 256GB SSD, Windows 10 Home</p>
+                    
+                    <div class="product-rating">
+                        ★★★★☆
+                        <span>100 reviews</span>
+                    </div>
+                    <p class="product-price"><s>$499.99</s> $399.99 Save $100</p>
+                    <div class="product-btn">
+                        <button type="button">Buy Now</button>
+                        <button type="button"><i class="fas fa-cart-plus"></i></button>
+                        <button type="button"><i class="fas fa-heart"></i></button>
+                        <button type="button"><i class="fas fa-exchange-alt"></i></button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="path-to-image1" alt="Dell Inspiron 15 3000 Laptop">
+                    <p class="product-title">Dell Inspiron 15 3000 Laptop, 15.6-inch HD Display, Intel Core i3 Processor, 8GB RAM, 256GB SSD, Windows 10 Home</p>
+                    
+                    <div class="product-rating">
+                        ★★★★☆
+                        <span>100 reviews</span>
+                    </div>
+                    <p class="product-price"><s>$499.99</s> $399.99 Save $100</p>
+                    <div class="product-btn">
+                        <button type="button">Buy Now</button>
+                        <button type="button"><i class="fas fa-cart-plus"></i></button>
+                        <button type="button"><i class="fas fa-heart"></i></button>
+                        <button type="button"><i class="fas fa-exchange-alt"></i></button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="path-to-image1" alt="Dell Inspiron 15 3000 Laptop">
+                    <p class="product-title">Dell Inspiron 15 3000 Laptop, 15.6-inch HD Display, Intel Core i3 Processor, 8GB RAM, 256GB SSD, Windows 10 Home</p>
+                    
+                    <div class="product-rating">
+                        ★★★★☆
+                        <span>100 reviews</span>
+                    </div>
+                    <p class="product-price"><s>$499.99</s> $399.99 Save $100</p>
+                    <div class="product-btn">
+                        <button type="button">Buy Now</button>
+                        <button type="button"><i class="fas fa-cart-plus"></i></button>
+                        <button type="button"><i class="fas fa-heart"></i></button>
+                        <button type="button"><i class="fas fa-exchange-alt"></i></button>
+                    </div>
+                </div>
+              </div>
+        </section>
+        <section class="best-sellers">
+            <h3>BEST SELLERS</h3>
+            <div class="products">
+                <!-- Product 1 -->
+                <div class="product">
+                    <img src="path-to-image1" alt="Dell Inspiron 15 3000 Laptop">
+                    <p class="product-title">Dell Inspiron 15 3000 Laptop, 15.6-inch HD Display, Intel Core i3 Processor, 8GB RAM, 256GB SSD, Windows 10 Home</p>
+                    
+                    <div class="product-rating">
+                        ★★★★☆
+                        <span>100 reviews</span>
+                    </div>
+                    <p class="product-price"><s>$499.99</s> $399.99 Save $100</p>
+                    <div class="product-btn">
+                        <button type="button">Buy Now</button>
+                        <button type="button"><i class="fas fa-cart-plus"></i></button>
+                        <button type="button"><i class="fas fa-heart"></i></button>
+                        <button type="button"><i class="fas fa-exchange-alt"></i></button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="path-to-image1" alt="Dell Inspiron 15 3000 Laptop">
+                    <p class="product-title">Dell Inspiron 15 3000 Laptop, 15.6-inch HD Display, Intel Core i3 Processor, 8GB RAM, 256GB SSD, Windows 10 Home</p>
+                    
+                    <div class="product-rating">
+                        ★★★★☆
+                        <span>100 reviews</span>
+                    </div>
+                    <p class="product-price"><s>$499.99</s> $399.99 Save $100</p>
+                    <div class="product-btn">
+                        <button type="button">Buy Now</button>
+                        <button type="button"><i class="fas fa-cart-plus"></i></button>
+                        <button type="button"><i class="fas fa-heart"></i></button>
+                        <button type="button"><i class="fas fa-exchange-alt"></i></button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="path-to-image1" alt="Dell Inspiron 15 3000 Laptop">
+                    <p class="product-title">Dell Inspiron 15 3000 Laptop, 15.6-inch HD Display, Intel Core i3 Processor, 8GB RAM, 256GB SSD, Windows 10 Home</p>
+                    
+                    <div class="product-rating">
+                        ★★★★☆
+                        <span>100 reviews</span>
+                    </div>
+                    <p class="product-price"><s>$499.99</s> $399.99 Save $100</p>
+                    <div class="product-btn">
+                        <button type="button">Buy Now</button>
+                        <button type="button"><i class="fas fa-cart-plus"></i></button>
+                        <button type="button"><i class="fas fa-heart"></i></button>
+                        <button type="button"><i class="fas fa-exchange-alt"></i></button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="path-to-image1" alt="Dell Inspiron 15 3000 Laptop">
+                    <p class="product-title">Dell Inspiron 15 3000 Laptop, 15.6-inch HD Display, Intel Core i3 Processor, 8GB RAM, 256GB SSD, Windows 10 Home</p>
+                    
+                    <div class="product-rating">
+                        ★★★★☆
+                        <span>100 reviews</span>
+                    </div>
+                    <p class="product-price"><s>$499.99</s> $399.99 Save $100</p>
+                    <div class="product-btn">
+                        <button type="button">Buy Now</button>
+                        <button type="button"><i class="fas fa-cart-plus"></i></button>
+                        <button type="button"><i class="fas fa-heart"></i></button>
+                        <button type="button"><i class="fas fa-exchange-alt"></i></button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="path-to-image1" alt="Dell Inspiron 15 3000 Laptop">
+                    <p class="product-title">Dell Inspiron 15 3000 Laptop, 15.6-inch HD Display, Intel Core i3 Processor, 8GB RAM, 256GB SSD, Windows 10 Home</p>
+                    
+                    <div class="product-rating">
+                        ★★★★☆
+                        <span>100 reviews</span>
+                    </div>
+                    <p class="product-price"><s>$499.99</s> $399.99 Save $100</p>
+                    <div class="product-btn">
+                        <button type="button">Buy Now</button>
+                        <button type="button"><i class="fas fa-cart-plus"></i></button>
+                        <button type="button"><i class="fas fa-heart"></i></button>
+                        <button type="button"><i class="fas fa-exchange-alt"></i></button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="path-to-image1" alt="Dell Inspiron 15 3000 Laptop">
+                    <p class="product-title">Dell Inspiron 15 3000 Laptop, 15.6-inch HD Display, Intel Core i3 Processor, 8GB RAM, 256GB SSD, Windows 10 Home</p>
+                    
+                    <div class="product-rating">
+                        ★★★★☆
+                        <span>100 reviews</span>
+                    </div>
+                    <p class="product-price"><s>$499.99</s> $399.99 Save $100</p>
+                    <div class="product-btn">
+                        <button type="button">Buy Now</button>
+                        <button type="button"><i class="fas fa-cart-plus"></i></button>
+                        <button type="button"><i class="fas fa-heart"></i></button>
+                        <button type="button"><i class="fas fa-exchange-alt"></i></button>
+                    </div>
+                </div>
+              </div>
+        </section>
+    </div>
+
+    <script src="./assets/scripts/index.js"></script>
 </body>
 </html>
